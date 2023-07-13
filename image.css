@@ -1,0 +1,43 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+#searchInput{
+width: 20%;
+}
+#form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-left: 150px;
+}
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.button-wrapper{
+    margin-top: 20px;
+}
+#search-button{
+    width: 200px;
+    height: 30px;
+}
+#clear-button{
+    width: 200px;
+    height: 30px;
+}
+.imageList-wrapper{
+display: flex;
+flex-wrap: wrap;
+}
+img{
+padding: 20px;
+position: relative;
+left: 60px;
+}
+
